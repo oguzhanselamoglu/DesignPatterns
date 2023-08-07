@@ -3,15 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 25.0.1706.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{207A9DA0-555F-4CAE-B6FE-CE92A1B6171D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.TemplateMethod", "src\Behavioral\DesignPattern.TemplateMethod\DesignPattern.TemplateMethod.csproj", "{48CF3991-2FED-4360-8A42-C87B5812C426}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48CF3991-2FED-4360-8A42-C87B5812C426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48CF3991-2FED-4360-8A42-C87B5812C426}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32EF583A-0F3A-4C02-9E0B-57AAEC73F693}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{48CF3991-2FED-4360-8A42-C87B5812C426} = {207A9DA0-555F-4CAE-B6FE-CE92A1B6171D}
 	EndGlobalSection
 EndGlobal

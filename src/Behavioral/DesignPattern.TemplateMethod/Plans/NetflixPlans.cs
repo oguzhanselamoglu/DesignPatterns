@@ -1,6 +1,6 @@
 namespace DesignPattern.TemplateMethod.Plans;
 
-public class NetflixPlans
+public abstract class NetflixPlans
 {
     
 }
